@@ -384,9 +384,6 @@ main .box-items .box-text {
   padding: 20px 20px;
   z-index: 10;
 }
-main .box-items:hover {
-  scale: 1.1;
-}
 main .about-me {
   background-image: url(../img/person-5956897_1280.jpg);
 }
@@ -610,6 +607,9 @@ main .contact-item {
   }
   .nav-main {
     flex-grow: 3;
+  }
+  .box-items:hover {
+    scale: 1.1;
   }
   .cv-box .cv-table {
     width: 80%;

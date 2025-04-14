@@ -395,10 +395,6 @@ main {
 		}
 	}
 
-	.box-items:hover {
-		scale: 1.1;
-	}
-
 	.about-me {
 		background-image: url(../img/person-5956897_1280.jpg);
 	}
@@ -636,6 +632,9 @@ main {
 	}
 	.nav-main {
 		flex-grow: 3;
+	}
+	.box-items:hover {
+		scale: 1.1;
 	}
 	.cv-box {
 		.cv-table {
