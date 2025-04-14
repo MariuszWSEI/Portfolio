@@ -202,6 +202,7 @@ header {
   z-index: 10;
 }
 .header-btn button a {
+  padding: 30px 0;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
@@ -460,7 +461,8 @@ main .contact-item {
   color: rgb(160, 126, 63);
 }
 .cv-box button {
-  padding: 25px 80px;
+  position: relative;
+  padding: 25px 0;
   margin: 30px 0 40px;
   cursor: pointer;
   border-radius: 25px;
@@ -470,6 +472,7 @@ main .contact-item {
   color: rgb(160, 126, 63);
 }
 .cv-box button a {
+  padding: 25px 80px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
