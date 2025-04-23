@@ -556,7 +556,13 @@ main {
 		background-color: color.$btn-color;
 		box-shadow: 0 0 2px color.$gold-color;
 		color: color.$gold-color;
+		font-weight: bold;
+		transition: 0.3s;
 		cursor: pointer;
+	}
+	.contact-btn:hover {
+		background-color: rgba(185, 175, 175, 0.05);
+		color: color.$font-color1;
 	}
 }
 .contact-info {

@@ -46,7 +46,7 @@ nav {
   transition: color 0.3s;
 }
 .nav-items a:hover {
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
 }
 
 .nav-active {
@@ -80,7 +80,7 @@ nav {
   height: 3px;
   width: 0;
   bottom: 10px;
-  background: rgb(160, 126, 63);
+  background: rgb(113, 92, 41);
   transition: 0.3s;
 }
 
@@ -193,10 +193,10 @@ header {
 }
 .header-btn button {
   border-radius: 25px;
-  border: 2px solid rgb(160, 126, 63);
+  border: 2px solid rgb(113, 92, 41);
   background-color: rgb(201, 160, 67);
-  box-shadow: 0 0 2px rgb(160, 126, 63);
-  color: rgb(160, 126, 63);
+  box-shadow: 0 0 2px rgb(113, 92, 41);
+  color: rgb(113, 92, 41);
   cursor: pointer;
   padding: 30px 20px;
   z-index: 10;
@@ -206,7 +206,7 @@ header {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
 }
 
 .header-body {
@@ -249,7 +249,7 @@ main h2 {
   padding: 20px 0 0;
 }
 main h2 span {
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
 }
 main .box {
   display: flex;
@@ -342,8 +342,8 @@ main .box-items {
   width: 88%;
   margin: 40px 20px;
   height: 600px;
-  border: 2px solid rgb(160, 126, 63);
-  box-shadow: 0 0 17px rgb(160, 126, 63);
+  border: 2px solid rgb(113, 92, 41);
+  box-shadow: 0 0 17px rgb(113, 92, 41);
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -365,9 +365,9 @@ main .box-items .box-btn {
   padding: 20px 0;
   width: 50%;
   border-radius: 25px;
-  border: 2px solid rgb(160, 126, 63);
+  border: 2px solid rgb(113, 92, 41);
   background-color: rgb(201, 160, 67);
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
   cursor: pointer;
   z-index: 10;
 }
@@ -376,7 +376,7 @@ main .box-items .box-btn a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
 }
 main .box-items .box-text {
   position: absolute;
@@ -438,7 +438,7 @@ main .contact-item {
   text-align: center;
   text-transform: uppercase;
   padding: 20px 0;
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
   letter-spacing: 3px;
   font-weight: bold;
 }
@@ -455,7 +455,7 @@ main .contact-item {
   padding: 20px 0;
 }
 .cv-box h2 span {
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
 }
 .cv-box button {
   position: relative;
@@ -463,17 +463,17 @@ main .contact-item {
   margin: 30px 0 40px;
   cursor: pointer;
   border-radius: 25px;
-  border: 2px solid rgb(160, 126, 63);
+  border: 2px solid rgb(113, 92, 41);
   background-color: rgb(201, 160, 67);
-  box-shadow: 0 0 2px rgb(160, 126, 63);
-  color: rgb(160, 126, 63);
+  box-shadow: 0 0 2px rgb(113, 92, 41);
+  color: rgb(113, 92, 41);
 }
 .cv-box button a {
   padding: 25px 80px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: rgb(160, 126, 63);
+  color: rgb(113, 92, 41);
 }
 
 .gallery {
@@ -533,11 +533,17 @@ main .contact-item {
   width: 60%;
   align-self: center;
   border-radius: 25px;
-  border: 2px solid rgb(160, 126, 63);
+  border: 2px solid rgb(113, 92, 41);
   background-color: rgb(201, 160, 67);
-  box-shadow: 0 0 2px rgb(160, 126, 63);
-  color: rgb(160, 126, 63);
+  box-shadow: 0 0 2px rgb(113, 92, 41);
+  color: rgb(113, 92, 41);
+  font-weight: bold;
+  transition: 0.3s;
   cursor: pointer;
+}
+.contact-form .contact-btn:hover {
+  background-color: rgba(185, 175, 175, 0.05);
+  color: rgb(214, 210, 202);
 }
 
 .contact-info {
